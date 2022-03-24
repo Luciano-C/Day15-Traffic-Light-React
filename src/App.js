@@ -1,25 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+
+const TrafficLight = () => {
+  return (
+    <div className='global-container'>
+      <div className='traffic-light-container'>
+        <div className='pipe'>|</div>
+        <div className='lights-container'>
+          <div className='red-light light'><i className="fa-solid fa-circle"></i></div>
+          <div className='yellow-light light'><i className="fa-solid fa-circle"></i></div>
+          <div className='green-light light'><i className="fa-solid fa-circle"></i></div>
+        </div>
+      </div>
+    </div>
+
+  )
+}
+
+
+
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <TrafficLight />
     </div>
-  );
+  )
 }
 
 export default App;

@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.global-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.traffic-light-container {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+
+
+.lights-container {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 100%;
+  align-items: center;
+  
+  
+}
+
+.red-light {
+  color: red;
+  
+}
+.yellow-light {
+  color: yellow;
+}
+
+.green-light {
+  color: green;
+}
+
+.light {
+  font-size: 700%;
+  margin-top: -10px;
+  
+}
+.pipe {
+  color: black;
+  font-size: 700%;
+  align-self: center;
+  margin-bottom: -60px;
+}
