@@ -56,30 +56,54 @@
   background-color: black;
   width: 100%;
   align-items: center;
+  height: 400px;
+  justify-content: space-around;
+ 
+  
+  
   
   
 }
 
 .red-light {
-  color: red;
+  background-color: red;
+ /*  box-shadow:
+    0 0 60px 10px red,
+    0 0 100px 20px red, 
+    0 0 140px 30px red;  */
+ 
+
   
+
+
 }
 .yellow-light {
-  color: yellow;
+  background-color: yellow;
+ /*  box-shadow:
+  0 0 60px 10px yellow,  
+  0 0 100px 20px yellow, 
+  0 0 140px 30px yellow;  */
+  
 }
 
 .green-light {
-  color: green;
+  background-color: green;
+/*   box-shadow:
+    0 0 60px 10px green,  
+    0 0 100px 20px green, 
+    0 0 140px 30px green;  */
 }
 
 .light {
-  font-size: 700%;
-  margin-top: -10px;
+
+  height: 110px;
+  width: 110px;
+  border-radius: 100%;
   
 }
 .pipe {
   color: black;
   font-size: 700%;
   align-self: center;
-  margin-bottom: -60px;
+  margin-bottom: -10px;
 }

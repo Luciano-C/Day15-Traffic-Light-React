@@ -6,9 +6,9 @@ const TrafficLight = () => {
       <div className='traffic-light-container'>
         <div className='pipe'>|</div>
         <div className='lights-container'>
-          <div className='red-light light'><i className="fa-solid fa-circle"></i></div>
-          <div className='yellow-light light'><i className="fa-solid fa-circle"></i></div>
-          <div className='green-light light'><i className="fa-solid fa-circle"></i></div>
+          <div className='red-light light'></div>
+          <div className='yellow-light light'></div>
+          <div className='green-light light'></div>
         </div>
       </div>
     </div>
