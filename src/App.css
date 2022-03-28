@@ -67,39 +67,50 @@
 
 .red-light {
   background-color: red;
- /*  box-shadow:
-    0 0 60px 10px red,
-    0 0 100px 20px red, 
-    0 0 140px 30px red;  */
  
-
+}
+.red-light-on {
+  background-color: red;
+  box-shadow:
+  0 0 60px 10px red,
+  0 0 100px 20px red, 
+  0 0 140px 30px red;
+}
   
 
-
-}
 .yellow-light {
   background-color: yellow;
- /*  box-shadow:
+
+}
+
+.yellow-light-on {
+  background-color: yellow;
+  box-shadow:
   0 0 60px 10px yellow,  
   0 0 100px 20px yellow, 
-  0 0 140px 30px yellow;  */
+  0 0 140px 30px yellow;
   
 }
 
 .green-light {
   background-color: green;
-/*   box-shadow:
-    0 0 60px 10px green,  
-    0 0 100px 20px green, 
-    0 0 140px 30px green;  */
+
 }
 
-.light {
+.green-light-on {
+  background-color: green;
+  box-shadow:
+  0 0 60px 10px green,  
+  0 0 100px 20px green, 
+  0 0 140px 30px green; 
+}
 
+
+
+.light {
   height: 110px;
   width: 110px;
   border-radius: 100%;
-  
 }
 .pipe {
   color: black;
